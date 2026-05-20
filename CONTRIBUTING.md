@@ -85,6 +85,8 @@ feature/order-api
 feature/vendor-dashboard
 fix/login-bug
 docs/update-readme
+test/Adding-and-updating-tests
+chore/Maintenance-and-config-updates
 ```
 
 ---
@@ -98,8 +100,15 @@ feat: added order status API
 fix: resolved token validation issue
 docs: updated API documentation
 refactor: optimized order controller
+test: add unit tests for payment service
+chore: update eslint configuration
 ```
 
+Examples:
+
+```bash id="i2c7b4"
+git commit -m "test: add unit tests for login service"
+```
 ---
 
 # Backend Contribution Guidelines
